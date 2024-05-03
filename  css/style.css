@@ -150,29 +150,36 @@
 .textoup h5{
     grid-row: 1;
     color:#ff702a;
-    position: relative;
-    font-size: 1vw;
-    left: 45vw;
-    top: 2vw;
+    font-size: 1.5vw;
+    text-align: center;
 }
 .textoup h1{
     grid-row: 1;
     color: #ffffff;
-    position: relative;
     font-size: 3vw;
-    left: 32vw;
+   text-align: center;
 }
+
 
 
 .imagendown{
     grid-row: 2;
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto ;
     gap: 2vw;
     justify-content: center;
     margin-top: 3vw;
+    background-color: #ffffff;
+    
 }
 
+.money{
+    color: #ff702a;
+    position: relative;
+    left: 9vw;
+
+}
 .containerfour{
     display: grid;
     background-color: #000;
@@ -185,10 +192,8 @@
 .textoupp h5{
     grid-row: 1;
     color:#ff702a;
-    position: relative;
-    font-size: 1vw;
-    left: 45vw;
-    top: 2vw;
+    font-size: 1.5vw;
+    text-align: center;
 }
 .textoupp h1{
     grid-row: 2;
