@@ -84,4 +84,55 @@
 }
 
 
+.containertwo {
+    display: grid;
+    grid-template-columns: auto auto;
+     border: 2px solid  #ff702a;
+     background-color: #000;
+    
+}
 
+.imagenleft{
+    grid-column: 1;
+    margin-left: 8vw;
+    margin-top: 2vw;
+    position: relative;
+    left: 3vw; 
+}
+
+.textoright{
+    grid-column: 2;
+    margin-top: 4vw;
+    position: relative;
+    right: 13vw;
+}
+.textoright h2{
+    color: #ffffff;
+
+}
+.textoright h1{
+    color: #ffffff;
+    font-size: 3vw;
+    position: relative;
+    bottom: 1vw;
+
+}
+.textoright p{
+    color: #ffffff;
+    font-size: 1vw;
+    position: relative;
+    bottom: 2.5vw;
+
+}
+
+
+.buttonthree{
+    width: 10vw;
+    height: 3vw;
+    padding: 0.5vw;
+    background-color: #ff702a;
+    position: relative;
+    bottom: 3vw;
+    font-size: 1vw;
+    color: #ffffff;
+}
