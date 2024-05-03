@@ -13,7 +13,7 @@
 
 .header_left{
     grid-column: 1;
-    margin-left: 8vw;
+    margin-left: 15vw;
     display: grid;
     grid-template-columns: auto ;
     grid-template-rows: auto auto auto auto ;
