@@ -64,7 +64,8 @@
 
 .header_right img{
     width: 20vw;
-    grid-column: 1;
+    grid-column-start: 1;
+    grid-column-end: 6;
     margin-top: 3vw;
     grid-row: 2;
 }
