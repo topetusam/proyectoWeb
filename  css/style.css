@@ -193,9 +193,9 @@
 .textoupp h1{
     grid-row: 2;
     color: #ffffff;
-    position: relative;
     font-size: 3vw;
-    left: 32vw;
+    
+    text-align: center;
 }
 
 
@@ -218,10 +218,12 @@
 .imagen1 h3{
     grid-row: 2;
     color: #ff702a;
+    text-align: center;
 }
 .imagen1 p{
     grid-row: 3;
     color: #ffffff;
+   text-align: center;     
 }
 .imagen2 img{
     grid-row: 1;
@@ -231,10 +233,12 @@
 .imagen2 h3{
     grid-row: 2;
     color: #ff702a;
+    text-align: center;
 }
 .imagen2 p{
     grid-row: 3;
     color: #ffffff;
+    text-align: center;
 }
 .imagen3 img{
     grid-row: 1;
@@ -244,10 +248,13 @@
 .imagen3 h3{
     grid-row: 2;
     color: #ff702a;
+    position: relative;
+    left: 8vw;
 }
 .imagen3 p{
     grid-row: 3;
     color: #ffffff;
+   text-align: center   ;
 }
 
 
@@ -281,6 +288,13 @@
     font-size: 3vw;
     align-self: center;
  }
+ .containerpeque h2{
+    margin-left: 37vw;
+    position: relative;
+    bottom: 2vw;
+    font-size: 3vw;
+ }
+
 
 
 .buttonfive{
@@ -289,10 +303,10 @@
     padding: 0.5vw;
     background-color: #ff702a;
     position: relative;
-    top: 1vw;
+    bottom: 2.5vw;
     font-size: 1vw;
     color: #ffffff;
-    margin-left: 40vw;
+    margin-left: 38vw;
 }
 
 
