@@ -160,8 +160,6 @@
    text-align: center;
 }
 
-
-
 .imagendown{
     grid-row: 2;
     display: grid;
@@ -170,14 +168,37 @@
     gap: 2vw;
     justify-content: center;
     margin-top: 3vw;
-    background-color: #ffffff;
+    
+    
+}
+.imagen11 h3{
+    text-align: center;
+    
+}
+.imagen22 h3{
+    text-align: center;
+    
+}
+.imagen33 h3{
+    text-align: center;
     
 }
 
+.imagen11{
+    background-color: #ffefe8;
+}
+.imagen22{
+    background-color: #ffefe8;
+}
+.imagen33{
+    background-color: #ffefe8;
+}
+
 .money{
-    color: #ff702a;
+    color: #141211;
     position: relative;
-    left: 9vw;
+    left: 7vw;
+    bottom: 0.5vw;
 
 }
 .containerfour{
